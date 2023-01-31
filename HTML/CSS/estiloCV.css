@@ -1,0 +1,67 @@
+*{
+    /*background-color: rgba(240, 248, 255, 0.445); */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(167, 167, 167);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    /*margin: 15px;*/
+}
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: rgb(189, 172, 151);
+    
+}
+main{
+    background-color: rgba(199, 237, 247, 0.822);
+}
+section{
+   height: 50vh;   
+}
+.lista-de-proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section#infoPersonal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section#infoPersonal fotoPersonal{
+    width: 300px;
+    height: 300px;
+    background-image: url(https://randomuser.me/api/portraits/men/59.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+section#infoPersonal h1{
+    font-size: 4rem;
+    font-style: italic;
+}
+section#infoPersonal h2{
+    font-size: 2rem;
+    font-style: italic;
+}
+h3{
+    font-size: medium;
+}
+.detalles-del-proyecto{
+    border: 3px solid rgb(150, 255, 119) ;
+    width: 300px;
+    margin: 20px;    
+}
+.detalles-del-proyecto img{
+    width: 100%;
+}
