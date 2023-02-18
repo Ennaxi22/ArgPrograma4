@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+header{
+    background-color: aquamarine;
+}
+#lista-de-proyectos{
+    background-color: aqua;
+    padding: 5rem;
+    
+}
+figcaption cite{
+    
+}
