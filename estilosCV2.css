@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    background-color: rgb(101, 148, 148);
+}
+
+header{
+    background-color: rgb(255, 185, 127);
+}
+header img{
+    float: right;
+    height: 100%;
+}
+#detalles-del-proyecto{
+    background-color: rgb(93, 98, 98);
+    padding: 5rem; 
+}
+.card-img-top{
+    height: 10rem;
+}
+.card-img-top img{
+    height: 100%;
+    width: 100%;
+    max-width: 95%;
+    max-height: 95%;
+    object-fit: cover;
+    padding-top: 1rem;
+}
+figcaption cite{
+    font-style: italic;
+}
